@@ -45,4 +45,5 @@ node default {
   notify { "Hello, my name is ${::cihezue}": }
    
    include users 
+   include skeleton
   }

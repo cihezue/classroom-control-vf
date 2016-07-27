@@ -43,6 +43,6 @@ node default {
   # Example:
   #   class { 'my_class': }
   notify { "Hello, my name is ${::cihezue}": }
- }
-  include users 
-}
+   
+   include users 
+  }

@@ -1,0 +1,12 @@
+#bashrc
+source global definitions
+if [.f/etc/bashrc]:then
+    ./etc/bashrc
+fi
+
+#uncomment the following line if you don't like systemct's auto-paging feature
+#export SYSTEM_PAGE=
+
+#User specific aliases and functions
+
+cowsay "Hi there!"

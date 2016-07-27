@@ -13,6 +13,6 @@ require => Package['memcached'],
 service { 'memcached':
 ensure => running,
 enable => true,
-subscribe => File['/etc/sysconfig/memcached'],
+subscribe => Files['/etc/sysconfig/memcached'],
  }
 }

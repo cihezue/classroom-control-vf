@@ -43,5 +43,4 @@ service { 'nginx':
 ensure => running,
 enable => true,
  }
-include nginx
 }

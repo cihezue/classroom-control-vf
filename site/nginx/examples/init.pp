@@ -43,5 +43,9 @@ service { 'nginx':
 ensure => running,
 enable => true,
  }
+ if $::osfamily == 'Windows' {
+Package {
+provider => chocolatey,
+}
  include nginx
 }

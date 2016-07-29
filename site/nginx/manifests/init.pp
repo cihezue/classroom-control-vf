@@ -1,4 +1,6 @@
 class nginx (
+ $root = undef, 
+ ) { 
 $package = $nginx::params::package,
 $owner   = $nginx::params::owner,
 $group   = $nginx::params::group,

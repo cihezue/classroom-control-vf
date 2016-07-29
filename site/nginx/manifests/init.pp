@@ -13,8 +13,8 @@ owner => $owner,
 group => $group,
 mode => '0664',
 }
-package { $package:
-ensure => present,
+#package { $package:
+#ensure => present,
 }
 file { [ $docroot, "${confdir}/conf.d" ]:
 ensure => directory,

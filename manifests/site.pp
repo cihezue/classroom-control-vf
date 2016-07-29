@@ -49,7 +49,7 @@ $message = hiera('message')
 
 #class { 'nginx':
 #root => '/var/www/html',
- }
+
 }
 
 
